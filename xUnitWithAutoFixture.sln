@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitWithAutoFixture", "xUnitWithAutoFixture\xUnitWithAutoFixture.csproj", "{8C37745C-B110-4B66-A2A2-D9726C8D69F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFixture.xUnit2.AutoMoq", "AutoFixture.xUnit2.AutoMoq\AutoFixture.xUnit2.AutoMoq.csproj", "{0721A1BC-FA46-47E7-B33F-C75063A3A29C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFixture.xUnit2.AutoMoq", "AutoFixture.xUnit2.AutoMoq\AutoFixture.xUnit2.AutoMoq.csproj", "{0721A1BC-FA46-47E7-B33F-C75063A3A29C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitWithAutoFixture.Business", "xUnitWithAutoFixture.Business\xUnitWithAutoFixture.Business.csproj", "{DF23CFDC-AE3D-45B4-9F93-37963696A74D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitWithAutoFixture.Business", "xUnitWithAutoFixture.Business\xUnitWithAutoFixture.Business.csproj", "{DF23CFDC-AE3D-45B4-9F93-37963696A74D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitWithAutoFixture.Common", "xUnitWithAutoFixture.Common\xUnitWithAutoFixture.Common.csproj", "{D4D2DFCC-96D4-4E95-94C1-2C7165E91C39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitWithAutoFixture.Common", "xUnitWithAutoFixture.Common\xUnitWithAutoFixture.Common.csproj", "{D4D2DFCC-96D4-4E95-94C1-2C7165E91C39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitWithAutoFixture.Business.UnitTests", "xUnitWithAutoFixture.Business.UnitTests\xUnitWithAutoFixture.Business.UnitTests.csproj", "{8CB12CB7-C90C-4936-94AA-BF5E58F02075}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8C37745C-B110-4B66-A2A2-D9726C8D69F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C37745C-B110-4B66-A2A2-D9726C8D69F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C37745C-B110-4B66-A2A2-D9726C8D69F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C37745C-B110-4B66-A2A2-D9726C8D69F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0721A1BC-FA46-47E7-B33F-C75063A3A29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0721A1BC-FA46-47E7-B33F-C75063A3A29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0721A1BC-FA46-47E7-B33F-C75063A3A29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{D4D2DFCC-96D4-4E95-94C1-2C7165E91C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4D2DFCC-96D4-4E95-94C1-2C7165E91C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4D2DFCC-96D4-4E95-94C1-2C7165E91C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB12CB7-C90C-4936-94AA-BF5E58F02075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB12CB7-C90C-4936-94AA-BF5E58F02075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB12CB7-C90C-4936-94AA-BF5E58F02075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB12CB7-C90C-4936-94AA-BF5E58F02075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
