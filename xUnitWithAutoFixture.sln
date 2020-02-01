@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitWithAutoFixture", "xUn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFixture.xUnit2.AutoMoq", "AutoFixture.xUnit2.AutoMoq\AutoFixture.xUnit2.AutoMoq.csproj", "{0721A1BC-FA46-47E7-B33F-C75063A3A29C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitWithAutoFixture.Business", "xUnitWithAutoFixture.Business\xUnitWithAutoFixture.Business.csproj", "{DF23CFDC-AE3D-45B4-9F93-37963696A74D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitWithAutoFixture.Common", "xUnitWithAutoFixture.Common\xUnitWithAutoFixture.Common.csproj", "{D4D2DFCC-96D4-4E95-94C1-2C7165E91C39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0721A1BC-FA46-47E7-B33F-C75063A3A29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0721A1BC-FA46-47E7-B33F-C75063A3A29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0721A1BC-FA46-47E7-B33F-C75063A3A29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF23CFDC-AE3D-45B4-9F93-37963696A74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF23CFDC-AE3D-45B4-9F93-37963696A74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF23CFDC-AE3D-45B4-9F93-37963696A74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF23CFDC-AE3D-45B4-9F93-37963696A74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D2DFCC-96D4-4E95-94C1-2C7165E91C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D2DFCC-96D4-4E95-94C1-2C7165E91C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D2DFCC-96D4-4E95-94C1-2C7165E91C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D2DFCC-96D4-4E95-94C1-2C7165E91C39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
