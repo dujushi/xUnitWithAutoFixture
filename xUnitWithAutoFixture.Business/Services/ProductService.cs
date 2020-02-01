@@ -41,9 +41,9 @@ namespace xUnitWithAutoFixture.Business.Services
 
         public async Task<Product> GetByIdAsync(Guid productId, CancellationToken cancellationToken = default)
         {
-            if (productId == null)
+            if (productId == Guid.Empty)
             {
-                throw new ArgumentNullException(nameof(productId));
+                throw new ArgumentException("Product ID cannot be empty.", nameof(productId));
             }
 
             var cacheKey = $"{nameof(ProductService)}-{nameof(GetByIdAsync)}-{productId}";
